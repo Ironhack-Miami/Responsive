@@ -1,0 +1,44 @@
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    color: red;
+}
+
+.header {
+    background-color: gray;
+    padding: 15px;
+}
+
+ul {
+    list-style: none;
+}
+li {
+    padding: 8px;
+    color: white;
+    background-color: gold;
+}
+
+@media only screen and (min-width: 600px) {
+    /* this is for tablet */
+    h1 {
+        color: royalblue;
+    }
+    .header {
+        background-color: yellow;
+    }
+
+}
+
+@media only screen and (min-width : 768px) {
+    /* this is for desktop */
+    h1 {
+        color: green;
+    }
+    .header {
+        background-color: cyan;
+    }
+}
+
